@@ -1,0 +1,53 @@
+# Xcode
+build/
+DerivedData/
+*.xcworkspace/
+!default.xcworkspace
+*.xcuserstate
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcuserstate
+
+# SwiftPM
+.swiftpm/
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Firebase / GoogleService files (optional, if local)
+# GoogleService-Info.plist
+
+# Swift Package Manager artifacts
+Package.resolved
+
+# Simulator/device data
+*.moved-aside
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Logs
+*.log
+
+# Archives
+*.xcarchive
+
+# Environment
+.env
+.env.*
+
+# macOS Finder + system files
+.DS_Store
+*.swp
+
+# Xcode Preview Support
+.preview-thumbnails/
+
+
+# User settings
+*.xcuserdatad/
